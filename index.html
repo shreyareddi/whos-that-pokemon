@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./resources/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title> Who's That Pokemon? Guesser </title>
+</head>
+
+<body>
+  <main class = "guessing">
+
+    <div id = "pokemon-space">
+      <img id = "pokemon-image" src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D">
+    </div>
+
+    <div id = "answer">
+      <div id = "text-overlay"></div>
+    </div>
+
+    <section id = "controls">
+      <div id = "score-text"></div>
+      <div id = "options"></div>
+      <button onclick = "changeButtonText()" id = "play">Play</button>
+    </section>
+
+  </main>
+
+  <script src="./resources/pokeapi.js"></script>
+  <script src="./resources/index.js"></script>
+
+</body>
+</html>
